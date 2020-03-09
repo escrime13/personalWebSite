@@ -3,7 +3,17 @@
   background-size: cover;
 } */
 
-img {
+#imgFluffy {
   max-width: 45rem;
   max-height: 45rem;
+}
+.carousel-item {
+  background: 100%;
+  background-color: lightgray;
+  text-align: center;
+}
+.carousel-item img {
+  max-width: 75%;
+  max-height: 40rem;
+  margin: auto;
 }
