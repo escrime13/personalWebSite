@@ -1,0 +1,9 @@
+/* .jumbotron {
+  background-image: url(/img/buthanP.jpg);
+  background-size: cover;
+} */
+
+img {
+  max-width: 45rem;
+  max-height: 45rem;
+}
