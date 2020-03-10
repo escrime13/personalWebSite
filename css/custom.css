@@ -1,7 +1,27 @@
-/* .jumbotron {
-  background-image: url(/img/buthanP.jpg);
+.jumbotron {
+  background-image: url(/img/keyboard.jpg);
   background-size: cover;
-} */
+}
+hr {
+  display: block;
+  border-color: #343a40;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 10px;
+}
+.skillContainer {
+  border-style: outset;
+  border-width: 2rem;
+}
+
+.educationContainer {
+  border-style: solid;
+  border-color: black;
+  border-width: 2rem;
+}
 
 #imgFluffy {
   max-width: 45rem;
@@ -16,4 +36,7 @@
   max-width: 75%;
   max-height: 40rem;
   margin: auto;
+}
+.nav-link {
+  color: #343a40;
 }
