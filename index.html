@@ -60,10 +60,11 @@
     <!-- /navbar -->
   
     <!-- jumbotron --> 
-    <div class="jumbotron jumbotron-fluid bg-dark text-white">
-      <div class="container text-sm-center justify-content-center mx-auto pt-5">
-        <h1 class="display-2"><strong>Anne-Sophie Masson-Côté</strong></h1>
-        <h2 class="display-4"><strong>Web Developer</strong></h2>
+    <div class="jumbotron jumbotron-fluid bg-dark">
+      <div id="jumbotronCSS" class="container text-sm-center justify-content-center mx-auto pt-5">
+        <h3 class="jumboTextH2"><strong>WEB DEVELOPER</strong></h2>
+        <h1 class="jumboTextH1"><strong>ANNE-SOPHIE MC</strong></h1>
+        <h3 class="jumboTextH2"><strong>FULL-STACK</strong></h2>
       </div>
     </div>
     <!-- /jumbotron -->
@@ -73,8 +74,8 @@
       id="aboutMe"
       class="container text-sm-center"
     >
-      <h2 class="display-3 mx-auto py-5 text-white" style="text-decoration:underline ;"><strong>About Me</strong></h2>
-      <p style="font-size: 2rem" class= "text-white">
+      <h2 class="display-3 mx-auto py-5 text-white" style="text-decoration:underline ;"><strong>ABOUT ME</strong></h2>
+      <p class= "text-white">
         Life should be an adventure.<br> 
         We shouldn't be constrained by our past experiences.<br>
         Never stop learning.
@@ -88,15 +89,14 @@
       <!-- travel -->
 
       <div id="aboutMore" style="display:none"> 
-        <p class="text-white text-left" style="font-size: 1.5rem;">A few years ago I was feeling stuck in my life. 
+        <p class="text-white text-left">A few years ago I was feeling stuck in my life. 
           I was envious of people who go on amazing adventures. 
           Than I realized that the only thing stopping me from going on these adventures was me.  
           I decided that at the end of my life I didn't wanted to think that "The others had all the fun".
           I started doing the things I had always dreamed of: a pilgrimage in Japan, a Safari in South Africa, a trek in the Hymalaya, taking horse back riding lessons...</p>
     
       
-    <div id="travel" class=" text-sm-center pb-5 mb-5">
-      <h2 class="pt-5 text-white">Recent Travels</h2>
+    <div id="travel" class=" text-sm-center py-5 mb-5">
          
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -129,10 +129,10 @@
         </a>
       </div>
     </div>
-    <p class="text-white text-left" style="font-size: 1.5rem">All this led to the biggest change in my life, changing career. I realized that I did not have to stay at my government job, I could change career. </p>
+    <p class="text-white text-left">All this led to the biggest change in my life: changing career. I realized that I did not have to stay at my government job, I could change career. </p>
     <div class="text-right mb-5">
 
-      <button type="button" class="btn btn-outline-light" id="btnAboutClose">Close section</button>
+      <button type="button" class="btn btn-outline-light" id="btnAboutClose">Close</button>
     </div>
   </div>
 
@@ -148,7 +148,7 @@
       id="skills"
       class="container text-sm-center pb-5 text-white"
     >
-      <h2 class="display-3 mx-auto py-5" style="text-decoration:underline"><strong>Skills</strong></h2>
+      <h2 class="display-3 mx-auto py-5" style="text-decoration:underline"><strong>SKILLS</strong></h2>
       <div class="container  skillContainer pt-5" style="background-color: white;">
         <div class="row pb-5">
           <div class="col">
@@ -225,7 +225,7 @@
       id="portfolio"
       class="container text-sm-center"
     >
-      <h2 class="display-3 mx-auto pt-5 text-white"><strong>Projects Demo</strong></h2>
+      <h2 class="display-3 mx-auto pt-5 text-white" style="text-decoration: underline" ><strong>PROJECTS DEMO</strong></h2>
 
       <div class="row">
         <div class="col-sm">
@@ -237,33 +237,55 @@
             target="_blank"
             ><img id="imgFluffy" src=img/fluffy_Buddies.PNG /></a
           >
-          <p class="pt-5 text-white text-left" style="font-size: 1.5rem;">
+          <div class="text-right mb-5">
+
+            <button type="button" class="btn btn-outline-light" id="btnFluffy">Tell Me More</button>
+          </div>
+          <div id="fluffyMore" style="display:none">
+          <p class="pt-5 text-white text-left">
             Developed a responsive web application with React.js that allows
             users to create profiles for each of their dogs in order to find
             dogs who have similar characteristics and interests for play dates.
             Includes information such as dogs characteristics and pictures,
             direct messaging and human availabilities for play dates.
-          </p>
+
+          </p>            
+          <div class="text-right mb-5">
+              <button type="button" class="btn btn-outline-light" id="btnFluffyClose">Close</button>
+            </div>
         </div>
+      </div>
+
+
+
         <div class="col-sm">
           <h2 class="pt-5 text-white">Team Project - Power Out Games</h2>
-          <h3>Marketplace</h3>
+          <h3 class="pb-5 text-white">Marketplace</h3>
           <a href="https://www.youtube.com/watch?v=ONSYioCxNPg" target="_blank"
             ><img src=img/power_Out.PNG /></a
           >
-          <p class="pt-5 text-white text-left" style="font-size: 1.5rem">
+          <div class="text-right mb-5">
+
+            <button type="button" class="btn btn-outline-light" id="btnPower">Tell Me More</button>
+          </div>
+          <div id="powerMore"style="display:none">
+          <p class="pt-5 text-white text-left">
             Developed alongside two colleagues an interactive marketplace with
             React.js that allows users to create a seller account in order to
             put items up for sales or a buyer account to purchase games. I was
             responsible for the back-end portion of the web application.
           </p>
+          <div class="text-right mb-5">
+            <button type="button" class="btn btn-outline-light" id="btnPowerClose">Close</button>
+          </div>
         </div>
       </div>
     </div>
+  </div>
     <!-- /projects -->
     <hr class="mb-4" />
     <!-- education -->
-    <div id="education" class="container text-sm-center text-white">
+    <div id="education" class="container text-sm-center text-white" style="text-decoration: underline;">
       <h2 class="display-3 mx-auto py-5"><strong>Education</strong></h2>
       <div class="card mx-auto col-lg-6 mb-5">
         <div class="card-body ">
@@ -305,7 +327,7 @@
           >
         </div>
       </div>
-      <div class="card mx-auto col-lg-6 educationContainer">
+      <div class="card mx-auto col-lg-6 shadow-lg">
         <div class="card-body ">
           <img class="pb-4" src="img/universite_de_montreal.png" />
           <div class="text-left ml-3"style="color:black">
