@@ -70,30 +70,36 @@
     <!-- /jumbotron -->
   <hr class="mb-4" />
     <!-- About Me -->
+    <div id="aboutMeBackground">
     <div
       id="aboutMe"
       class="container text-sm-center"
     >
-      <h2 class="display-3 mx-auto py-5 text-white" style="text-decoration:underline ;"><strong>ABOUT ME</strong></h2>
-      <p class= "text-white">
-        Life should be an adventure.<br> 
-        We shouldn't be constrained by our past experiences.<br>
-        Never stop learning.
+      <h2 class="display-3 mx-auto py-5" style="text-decoration:underline ;"><strong>ABOUT ME</strong></h2>
+      <p class= "text-left my-5"><strong>
+        I truly believe that:
+        <ul class="text-left"><li>Life should be an adventure.</li>
+          <li>We shouldn't be constrained by our past.</li>
+          <li>We should never stop learning.</li>
+        </ul>
+    
+        </strong>
       </p>
       <div class="text-right mb-5">
 
-        <button type="button" class="btn btn-outline-light" id="btnAbout">Tell Me More</button>
+        <button type="button" class="btn btn-dark mb-5" id="btnAbout">Tell Me More</button>
       </div>
+    </div>
       
 
       <!-- travel -->
 
       <div id="aboutMore" style="display:none"> 
-        <p class="text-white text-left">A few years ago I was feeling stuck in my life. 
+        <p class=" text-left m-5 p-5 ">I used to feel stuck in my life. 
           I was envious of people who go on amazing adventures. 
-          Than I realized that the only thing stopping me from going on these adventures was me.  
-          I decided that at the end of my life I didn't wanted to think that "The others had all the fun".
-          I started doing the things I had always dreamed of: a pilgrimage in Japan, a Safari in South Africa, a trek in the Hymalaya, taking horse back riding lessons...</p>
+          Than I realized that the only thing stopping me was me.  
+          I decided that "the others would not have all the fun".
+          I started doing the things I had always dreamed of: a pilgrimage in Japan, a Safari in South Africa, a trek in the Hymalaya...</p>
     
       
     <div id="travel" class=" text-sm-center py-5 mb-5">
@@ -129,10 +135,10 @@
         </a>
       </div>
     </div>
-    <p class="text-white text-left">All this led to the biggest change in my life: changing career. I realized that I did not have to stay at my government job, I could change career. </p>
-    <div class="text-right mb-5">
+    <p class=" text-left m-5 pb-5">This change of attitude led to a big change in my life: changing career. </p>
+    <div class="text-right m-5 ">
 
-      <button type="button" class="btn btn-outline-light" id="btnAboutClose">Close</button>
+      <button type="button" class="btn btn-dark" id="btnAboutClose">Close</button>
     </div>
   </div>
 
@@ -144,6 +150,7 @@
 
     <hr class="mb-4" />
     <!-- Skills -->
+    <div id="skillsBackground">
     <div
       id="skills"
       class="container text-sm-center pb-5 text-white"
@@ -217,10 +224,11 @@
       </div>
     </div>
   </div>
+</div>
     <!-- /Skills -->
     <hr class="mb-4" />
     <!-- projects -->
-    
+    <div id="projectDemoBackground">
     <div
       id="portfolio"
       class="container text-sm-center"
@@ -239,7 +247,7 @@
           >
           <div class="text-right mb-5">
 
-            <button type="button" class="btn btn-outline-light" id="btnFluffy">Tell Me More</button>
+            <button type="button" class="btn btn-dark" id="btnFluffy">Tell Me More</button>
           </div>
           <div id="fluffyMore" style="display:none">
           <p class="pt-5 text-white text-left">
@@ -251,23 +259,10 @@
 
           </p>            
           <div class="text-right mb-5">
-              <button type="button" class="btn btn-outline-light" id="btnFluffyClose">Close</button>
+              <button type="button" class="btn btn-dark" id="btnFluffyClose">Close</button>
             </div>
         </div>
       </div>
-<!-- modal -->
-
-<div id="fluffyModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="fluffyModal" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content ">
-      <div class="modal-header btn btn-dark sm">
-        <h5 class="modal-title text-sm-center justify-content-center m-auto" id="exampleModalLabel"><strong>Click To See Demo</strong></h5>
-      </div>
-        <button type="button" class="btn btn-dark" data-dismiss="modal"><strong>Close</strong></button>
-    </div>
-  </div>
-</div>
-<!-- /modal -->
 
 
         <div class="col-sm">
@@ -278,7 +273,7 @@
           >
           <div class="text-right mb-5">
 
-            <button type="button" class="btn btn-outline-light" id="btnPower">Tell Me More</button>
+            <button type="button" class="btn btn-dark" id="btnPower">Tell Me More</button>
           </div>
           <div id="powerMore"style="display:none">
           <p class="pt-5 text-white text-left">
@@ -288,17 +283,19 @@
             responsible for the back-end portion of the web application.
           </p>
           <div class="text-right mb-5">
-            <button type="button" class="btn btn-outline-light" id="btnPowerClose">Close</button>
+            <button type="button" class="btn btn-dark" id="btnPowerClose">Close</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
     <!-- /projects -->
     <hr class="mb-4" />
     <!-- education -->
-    <div id="education" class="container text-sm-center text-white" style="text-decoration: underline;">
-      <h2 class="display-3 mx-auto py-5"><strong>Education</strong></h2>
+    <div id="educationBackground">
+    <div id="education" class="container col-lg-6 text-sm-center">
+      <h2 id="educationTitle" class="display-3 mx-auto py-3 my-5" ><strong>Education</strong></h2>
       <div class="card mx-auto col-lg-6 mb-5">
         <div class="card-body ">
           <img class="pb-5" src="img/concordia-bc.png" />
@@ -339,7 +336,7 @@
           >
         </div>
       </div>
-      <div class="card mx-auto col-lg-6 shadow-lg">
+      <div class="card mx-auto col-lg-6 shadow-lg mb-5">
         <div class="card-body ">
           <img class="pb-4" src="img/universite_de_montreal.png" />
           <div class="text-left ml-3"style="color:black">
@@ -360,6 +357,7 @@
         </div>
       </div>
     </div>
+  </div>
     <!-- /education -->
     <hr class="mb-4" />
         <!-- experience -->
@@ -367,8 +365,25 @@
         id="experience"
         class="container text-sm-center"
       >
-        <h2 class="display-3 mx-auto pt-5 text-white"><strong>Experience</strong></h2>
+        <h2 class="display-3 mx-auto pt-5 pb-3 text-white"><strong>Experience</strong></h2>
+      <div class="card mb-5">
+        <div class="card-body text-left">
+         <h2><strong>Competition Law Officer/Senior Competition Law Officer</strong> </h1>
+          <h3>Canadian Competition Bureau</h3>
+          <h3>2008-2019</h3>
+          <div class="text-right mb-5">
+
+            <button type="button" class="btn btn-dark" id="btnExperience">Tell Me More</button>
+          </div>
+          <div id="experienceMore" style="display:none">
+           <p>Started has a Competition Law Officer was promoted to Senior Competition Law Officer (supervisor) and accepted to act for a limited period of time as Major Case Director and Strategic Advisor prior to taking a sabbatical year to pursue other interests. In November 2019 I officially resigned my position from the Federal Public Service to pursue a career in Web Development. </p> 
+            <div class="text-right mb-5">
+              <button type="button" class="btn btn-dark" id="btnExperienceClose">Close</button>
+            </div>
+          </div>
         </div>
+      </div>  
+      </div>
         <!-- /experience -->
 
 

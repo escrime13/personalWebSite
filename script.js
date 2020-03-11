@@ -17,13 +17,13 @@ $(function() {
   $("#btnPowerClose").on("click", function() {
     $("#powerMore").toggle();
   });
-  $("#imgFluffy").hover(function() {
-    $("#fluffyModal").modal({
-      show: true,
-      backdrop: false
-    });
-  });
-  $("#fluffyModal").on("click", function() {
+  $("#btnFluffyModal").on("click", function() {
     $("#fluffyModal").remove();
+  });
+  $("#btnExperience").on("click", function() {
+    $("#experienceMore").toggle();
+  });
+  $("#btnExperienceClose").on("click", function() {
+    $("#powerMore").toggle();
   });
 });
