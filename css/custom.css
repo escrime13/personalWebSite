@@ -3,7 +3,7 @@
 }
 
 .jumbotron {
-  background-image: url(https://escrime13.github.io/personalWebSite/img/background2.jfif);
+  background-image: url("https://escrime13.github.io/personalWebSite/img/background2.jfif");
   background-size: cover;
   min-height: 50rem;
 }
@@ -46,22 +46,22 @@ hr {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 #skillsBackground {
-  background-image: url("https://escrime13.github.io/personalWebSite/PJQWEBSITE/img/backgroundSkills.jpg");
+  background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundSkills.jpg");
 }
 #projectDemoBackground {
   background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundProject.jpg");
   background-size: cover;
 }
 #educationBackground {
-  background-image: url("/img/backgroundEducation.jpg");
+  background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundEducation.jpg");
   background-size: cover;
 }
 #aboutMeBackground {
-  background-image: url(/img/backgroundAbout.jpg);
+  background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundAbout.jpg");
   background-size: cover;
 }
 #experienceBackground {
-  background-image: url(/img/backgroundExperience.jpg);
+  background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundExperience.jpg");
   background-size: cover;
 }
 #aboutMe {
