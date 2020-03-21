@@ -1,7 +1,10 @@
 * {
   font-family: monospace;
 }
-
+.bodyBackground {
+  background-image: linear-gradient(black, #343a40);
+  background-size: cover;
+}
 .jumbotron {
   background-image: url("https://escrime13.github.io/personalWebSite/img/background2.jfif");
   background-size: cover;
@@ -10,7 +13,7 @@
 .jumboTextH2 {
   font-size: 5rem;
   color: lightgray;
-  text-shadow: 4px 4px rgb(20, 38, 233);
+  text-shadow: 4px 4px black;
   text-align: center;
 }
 .jumboTextH1 {
@@ -43,6 +46,7 @@ hr {
 }
 #skillsBackground {
   background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundSkills.jpg");
+  background-size: cover;
 }
 #projectDemoBackground {
   background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundProject.jpg");
