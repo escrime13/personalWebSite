@@ -53,7 +53,7 @@ hr {
   background-size: cover;
 }
 #educationBackground {
-  background-image: url(/img/backgroundEducation.jpg);
+  background-image: url("/img/backgroundEducation.jpg");
   background-size: cover;
 }
 #aboutMeBackground {
