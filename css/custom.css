@@ -46,10 +46,10 @@ hr {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 #skillsBackground {
-  background-image: url(https://escrime13.github.io/personalWebSite/img/backgroundSkills.jpg);
+  background-image: url("https://escrime13.github.io/personalWebSite/PJQWEBSITE/img/backgroundSkills.jpg");
 }
 #projectDemoBackground {
-  background-image: url(https://escrime13.github.io/personalWebSite/img/backgroundProject.jpg);
+  background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundProject.jpg");
   background-size: cover;
 }
 #educationBackground {
