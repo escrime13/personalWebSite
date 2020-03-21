@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Custom CSS -->
+   
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+      <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Anne-Sophie Masson-Côté</title>
+  </head>
+  <body style="background-image: linear-gradient(black, #343A40);">
+    <!-- navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" style="font-size: 1.5rem">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About Me</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>          
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Me</a>
+          </li>          
+
+        </ul>
+      </div>
+    </nav>
+
+    <!-- /navbar -->
+  
+    <!-- jumbotron --> 
+    <div class="jumbotron jumbotron-fluid bg-dark">
+      <div id="jumbotronCSS" class="container text-sm-center justify-content-center mx-auto pt-5">
+        <h3 class="jumboTextH2"><strong>WEB DEVELOPER</strong></h2>
+        <h1 class="jumboTextH1"><strong>ANNE-SOPHIE MC</strong></h1>
+        <h3 class="jumboTextH2"><strong>FULL-STACK</strong></h2>
+      </div>
+    </div>
+    <!-- /jumbotron -->
+  <hr class="mb-4" />
+    <!-- About Me -->
+    <div id="aboutMeBackground">
+    <div
+      id="aboutMe"
+      class="container text-sm-center"
+    >
+      <h2 class="display-3 mx-auto py-5" style="text-decoration:underline ;"><strong>ABOUT ME</strong></h2>
+      <p class= "text-left my-5"><strong>
+        I truly believe that:
+        <ul class="text-left"><li>Life should be an adventure.</li>
+          <li>We shouldn't be constrained by our past.</li>
+          <li>We should never stop learning.</li>
+        </ul>
+    
+        </strong>
+      </p>
+      <div class="text-right mb-5">
+
+        <button type="button" class="btn btn-dark mb-5" id="btnAbout">Tell Me More</button>
+      </div>
+    </div>
+      
+
+      <!-- travel -->
+
+      <div id="aboutMore" style="display:none"> 
+        <p class=" text-left m-5 p-5 ">I used to feel stuck in my life. 
+          I was envious of people who go on amazing adventures. 
+          Than I realized that the only thing stopping me was me.  
+          I decided that "the others would not have all the fun".
+          I started doing the things I had always dreamed of: a pilgrimage in Japan, a Safari in South Africa, a trek in the Hymalaya...</p>
+    
+      
+    <div id="travel" class=" text-sm-center py-5 mb-5">
+         
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/buthan.jpg" class="d-block w-100" alt="Anne-Sophie in Buthan">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/bahamas.jpg" class="d-block w-100" alt="Anne-Sophie in the Bahamas">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Shikoku.jpg" class="d-block w-100" alt="Anne-Sophie finishing the Shikoku pilgrimage">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/southAfrica.jpg" class="d-block w-100" alt="Anne-Sophie eating rusk in South Africa">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <p class=" text-left m-5 pb-5">This change of attitude led to a big change in my life: changing career. </p>
+    <div class="text-right m-5 ">
+
+      <button type="button" class="btn btn-dark" id="btnAboutClose">Close</button>
+    </div>
+  </div>
+
+      <!-- /travel -->
+    </div>
+
+
+    <!-- /About Me -->
+
+    <hr class="mb-4" />
+    <!-- Skills -->
+    <div id="skillsBackground">
+    <div
+      id="skills"
+      class="container text-sm-center pb-5 text-white"
+    >
+      <h2 class="display-3 mx-auto py-5" style="text-decoration:underline"><strong>SKILLS</strong></h2>
+      <div class="container  skillContainer pt-5" style="background-color: white;">
+        <div class="row pb-5">
+          <div class="col">
+            <figure>
+              <img src="img/html-5.png" alt="html-5 logo" />
+              <figcaption style="color:black">HTML 5</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/css3.png" alt="css-3 logo" />
+              <figcaption style="color:black">CSS 3</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/javascript.png" alt="javascript logo" />
+              <figcaption style="color:black">JavaScript</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/react.png" alt="react logo" />
+              <figcaption style="color:black">React</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/redux96.png" alt="redux logo" />
+              <figcaption style="color:black">Redux</figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="row pb-5">
+          <div class="col">
+            <figure>
+              <img src="img/express-nodejs.jpg" alt="express-nodejs logo" />
+              <figcaption style="color:black">Express and Node.js</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/jQuery.png" alt="jQuery logo" />
+              <figcaption style="color:black">jQuery</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/postman.png" alt="postman logo" />
+              <figcaption style="color:black">Postman</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/mongoDB.png" alt="mongoDB logo" />
+              <figcaption style="color:black">MongoDB</figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img src="img/bootsrap.jfif" alt="bootstrap 4 logo" />
+              <figcaption style="color:black">Bootstrap 4</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /Skills -->
+    <hr class="mb-4" />
+    <!-- projects -->
+    <div id="projectDemoBackground">
+    <div
+      id="portfolio"
+      class="container text-sm-center"
+    >
+      <h2 class="display-3 mx-auto pt-5 text-white" style="text-decoration: underline" ><strong>PROJECTS DEMO</strong></h2>
+
+      <div class="row">
+        <div class="col-sm">
+          <h2 class="pt-5 text-white">Solo Project - Fluffy Buddies</h2>
+          <h3 class="pb-3 text-white">Social Network for Dog Parents</h3>
+
+          <a
+            href="https://www.youtube.com/watch?v=ZjUNpxa_orM&feature=youtu.be"
+            target="_blank"
+            ><img id="imgFluffy" src=img/fluffy_Buddies.PNG /></a
+          >
+          <div class="text-right mb-5">
+
+            <button type="button" class="btn btn-dark" id="btnFluffy">Tell Me More</button>
+          </div>
+          <div id="fluffyMore" style="display:none">
+          <p class="pt-5 text-white text-left">
+            Developed a responsive web application with React.js that allows
+            users to create profiles for each of their dogs in order to find
+            dogs who have similar characteristics and interests for play dates.
+            Includes information such as dogs characteristics and pictures,
+            direct messaging and human availabilities for play dates.
+
+          </p>            
+          <div class="text-right mb-5">
+              <button type="button" class="btn btn-dark" id="btnFluffyClose">Close</button>
+            </div>
+        </div>
+      </div>
+
+
+        <div class="col-sm">
+          <h2 class="pt-5 text-white">Team Project - Power Out Games</h2>
+          <h3 class="pb-3 text-white">Marketplace</h3>
+          <a href="https://www.youtube.com/watch?v=ONSYioCxNPg" target="_blank"
+            ><img src=img/power_Out.PNG /></a
+          >
+          <div class="text-right mb-5">
+
+            <button type="button" class="btn btn-dark" id="btnPower">Tell Me More</button>
+          </div>
+          <div id="powerMore"style="display:none">
+          <p class="pt-5 text-white text-left">
+            Developed alongside two colleagues an interactive marketplace with
+            React.js that allows users to create a seller account in order to
+            put items up for sales or a buyer account to purchase games. I was
+            responsible for the back-end portion of the web application.
+          </p>
+          <div class="text-right mb-5">
+            <button type="button" class="btn btn-dark" id="btnPowerClose">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- /projects -->
+    <hr class="mb-4" />
+    <!-- education -->
+    <div id="educationBackground">
+    <div id="education" class="container col-lg-6 text-sm-center">
+      <h2 id="educationTitle" class="display-3 mx-auto py-3 my-5" ><strong>Education</strong></h2>
+      <div class="card mx-auto col-lg-6 mb-5">
+        <div class="card-body ">
+          <img class="pb-5" src="img/concordia-bc.png" />
+          <div class="text-left ml-3"style="color:black">
+            <h5 class="card-title">Diploma, Full-Stack Web Development</h5>
+            <h6 class="card-subtitle mb-2">
+              DecodeMTL/Concordia University
+            </h6>
+            <p class="card-text pb-3">
+              Completed a Full-Stack Web Development Diploma that focuses on
+              Modern Web Development with JavaScript.
+            </p>
+          </div>
+          <a
+            href="https://concordiabootcamps.ca/"
+            target="_blank"
+            class="card-link"
+            >Concordia Bootcamp</a
+          >
+        </div>
+      </div>
+      <div class="card mx-auto col-lg-6 mb-5">
+        <div class="card-body">
+          <img class="pb-4" src="img/universite_de_montreal.png" />
+          <div class="text-left ml-3" style="color:black">
+            <h5 class="card-title">Master's degree, Economics</h5>
+            <p class="card-text pb-3">
+              Field of Specialization, Economics and International Finance
+              <br />
+              Field of Research Paper, Industrial Organization
+            </p>
+          </div>
+          <a
+            href="https://sceco.umontreal.ca/accueil/"
+            target="_blank"
+            class="card-link"
+            >University of Montreal</a
+          >
+        </div>
+      </div>
+      <div class="card mx-auto col-lg-6 shadow-lg mb-5">
+        <div class="card-body ">
+          <img class="pb-4" src="img/universite_de_montreal.png" />
+          <div class="text-left ml-3"style="color:black">
+            <h5 class="card-title text-left pb-3">Bachelor degree</h5>
+            <h6 class="card-subtitle mb-2">
+              Major, Economics
+            </h6>
+            <h6 class="card-subtitle pb-3">
+              Minor, European Studies
+            </h6>
+          </div>
+          <a
+            href="https://sceco.umontreal.ca/accueil/"
+            target="_blank"
+            class="card-link"
+            >University of Montreal</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- /education -->
+    <hr class="mb-4" />
+        <!-- experience -->
+        <div id="experienceBackground">
+        <div
+        id="experience"
+        class="container text-sm-center"
+      >
+        <h2 class="display-3 mx-auto pt-5 pb-3"><strong>Experience</strong></h2>
+      <div class="card mb-5">
+        <div class="card-body text-left">
+         <h2><strong>Competition Law Officer/Senior Competition Law Officer</strong> </h1>
+          <h3>Canadian Competition Bureau</h3>
+          <h3>2008-2019</h3>
+          <div class="text-right mb-5">
+
+            <button type="button" class="btn btn-dark" id="btnExperience">Tell Me More</button>
+          </div>
+          <div id="experienceMore" style="display:none">
+           <p>Started has a Competition Law Officer was promoted to Senior Competition Law Officer (supervisor) and accepted to act for a limited period of time as Major Case Director and Strategic Advisor prior to taking a sabbatical year to pursue other interests. In November 2019 I officially resigned my position from the Federal Public Service to pursue a career in Web Development. </p> 
+            <div class="text-right mb-5">
+              <button type="button" class="btn btn-dark" id="btnExperienceClose">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+      </div>
+    </div>
+        <!-- /experience -->
+
+
+    <!-- footer -->
+
+    <footer id="contact" style="font-size: 4rem">
+      <nav class="navbar navbar-fluid navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a
+              class="nav-item nav-link mx-2"
+              href="https://github.com/escrime13"
+              target="_blank"
+              ><i class="fa fa-github"></i
+            ></a>
+            <a
+              class="nav-item nav-link mx-2"
+              href="https://www.linkedin.com/in/anne-sophie-masson-cote/"
+              target="_blank"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <!-- /footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -24,6 +24,6 @@ $(function() {
     $("#experienceMore").toggle();
   });
   $("#btnExperienceClose").on("click", function() {
-    $("#powerMore").toggle();
+    $("#experienceMore").toggle();
   });
 });

@@ -60,6 +60,10 @@ hr {
   background-image: url(/img/backgroundAbout.jpg);
   background-size: cover;
 }
+#experienceBackground {
+  background-image: url(/img/backgroundExperience.jpg);
+  background-size: cover;
+}
 #aboutMe {
   text-shadow: 2px 4px white;
 }
