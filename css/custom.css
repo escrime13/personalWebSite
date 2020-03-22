@@ -10,14 +10,7 @@
   background-size: cover;
   min-height: 50rem;
 }
-.jumboTextH2 {
-  font-size: 5rem;
-  color: lightgray;
-  text-shadow: 4px 4px black;
-  text-align: center;
-}
 .jumboTextH1 {
-  font-size: 7rem;
   color: white;
   text-shadow: 8px 8px black;
   text-align: center;
