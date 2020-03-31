@@ -1,41 +1,10 @@
 * {
   font-family: monospace;
 }
-.bodyBackground {
-  background-image: linear-gradient(black, #343a40);
-  background-size: cover;
-}
-.jumbotron {
-  background-image: url("https://escrime13.github.io/personalWebSite/img/background2.jfif");
-  background-size: cover;
-  min-height: 50rem;
-}
-.jumboTextH1 {
-  color: white;
-  text-shadow: 8px 8px black;
-  text-align: center;
-}
-p {
-  line-height: 1.6;
-  font-size: 2rem;
-}
+/* id---------------------------------- */
+
 #education p {
-  font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-}
-hr {
-  display: block;
-  border-color: #343a40;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 10px;
-}
-.skillContainer {
-  border-style: outset;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 #skillsBackground {
   background-image: url("https://escrime13.github.io/personalWebSite/img/backgroundSkills.jpg");
@@ -59,12 +28,14 @@ hr {
 }
 #aboutMe {
   text-shadow: 2px 4px white;
+  height: 100vh;
 }
-.educationContainer {
-  border-style: solid;
-  border-color: black;
-
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+#skills {
+  height: 100vh;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  margin: auto;
 }
 #educationTitle {
   background-color: white;
@@ -72,12 +43,37 @@ hr {
   border-color: black;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
-ul {
-  list-style-type: none;
+
+#experience {
+  height: 100vh;
 }
-li {
-  line-height: 1.6;
-  font-size: 2.5rem;
+
+/* class---------------------------------- */
+.bodyBackground {
+  background-image: linear-gradient(black, #343a40);
+  background-size: cover;
+}
+.jumbotron {
+  background-image: url("https://escrime13.github.io/personalWebSite/img/background2.jfif");
+  background-size: cover;
+  height: 100vh;
+}
+.jumboTextH1 {
+  color: white;
+  text-shadow: 8px 8px black;
+  text-align: center;
+}
+
+.skillContainer {
+  border-style: outset;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.educationContainer {
+  border-style: solid;
+  border-color: black;
+
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .imgProject {
   max-width: 60vw;
@@ -91,6 +87,18 @@ li {
   max-height: 40rem;
   margin: auto;
 }
-.nav-link {
-  color: #343a40;
+
+hr {
+  display: block;
+  border-color: #343a40;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 10px;
+}
+
+ul {
+  list-style-type: none;
 }
