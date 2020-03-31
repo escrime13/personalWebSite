@@ -27,11 +27,13 @@
   background-size: cover;
 }
 #aboutMe {
+  min-height: 100vh;
+}
+#aboutMeTitle {
   text-shadow: 2px 4px white;
-  height: 100vh;
 }
 #skills {
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
   vertical-align: middle;
   justify-content: center;
@@ -45,7 +47,7 @@
 }
 
 #experience {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /* class---------------------------------- */
@@ -56,7 +58,7 @@
 .jumbotron {
   background-image: url("https://escrime13.github.io/personalWebSite/img/background2.jfif");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 .jumboTextH1 {
   color: white;
@@ -101,4 +103,9 @@ hr {
 
 ul {
   list-style-type: none;
+  font-size: 2em;
+}
+
+p {
+  font-size: 2em;
 }
