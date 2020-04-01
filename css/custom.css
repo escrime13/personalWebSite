@@ -51,10 +51,12 @@
 }
 
 /* class---------------------------------- */
+
 .containerText {
   border: double 10px white;
-  padding: 40px;
+  padding: 40px 10px;
   margin-top: 20vh;
+  margin-bottom: 40px;
 }
 .outerContainer {
   display: table-cell;
