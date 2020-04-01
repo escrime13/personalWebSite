@@ -1,14 +1,20 @@
 $(function() {
+  $("#welcome")
+    .delay(1000)
+    .slideUp(1000, function() {
+      $("#welcome").remove();
+    });
   $("#name")
     .hide()
+    .delay(2000)
     .slideDown(1000);
   $("#fullStack")
     .hide()
-    .delay(500)
+    .delay(2500)
     .slideDown(1000);
   $("#webDev")
     .hide()
-    .delay(1000)
+    .delay(3000)
     .slideDown(1000);
   $("#symboleV")
     .delay(3000)

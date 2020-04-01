@@ -3,6 +3,12 @@
 }
 /* id---------------------------------- */
 
+#welcome {
+  height: 100vh;
+  font-size: 20vh;
+  color: white;
+  text-align: center;
+}
 #education p {
   font-family: Arial, Helvetica, sans-serif;
 }
