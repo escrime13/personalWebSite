@@ -51,12 +51,22 @@
 }
 
 /* class---------------------------------- */
+.containerText {
+  border: double 10px white;
+  padding: 40px;
+  margin-top: 20vh;
+}
+.outerContainer {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
 .bodyBackground {
   background-image: linear-gradient(black, #343a40);
   background-size: cover;
 }
 .jumbotron {
-  background-image: url("https://escrime13.github.io/personalWebSite/img/background2.jfif");
+  background-image: url("https://escrime13.github.io/personalWebSite/img/black-textile-952670.jpg");
   background-size: cover;
   min-height: 100vh;
 }
