@@ -134,3 +134,6 @@ ul {
 p {
   font-size: 2em;
 }
+a.card-link {
+  color: darkblue;
+}
