@@ -1,4 +1,12 @@
 $(function() {
+  $("#symboleV")
+    .animate({ "margin-top": "+=100px" }, 1500)
+    .animate({ "margin-top": "-=100px" }, 1500)
+    .animate({ "margin-top": "+=100px" }, 1500)
+    .animate({ "margin-top": "-=100px" }, 1500)
+    .animate({ "margin-top": "+=100px" }, 1500)
+    .animate({ "margin-top": "-=100px" }, 1500);
+
   $("#btnAbout").on("click", function() {
     if ($("#aboutMe").css("min-height") >= "100vh") {
       $("#aboutMe").css("min-height", "40vh");
