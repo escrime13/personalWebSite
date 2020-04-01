@@ -60,10 +60,14 @@
   background-size: cover;
   min-height: 100vh;
 }
+#jumbotronCSS {
+  display: inline-block;
+  justify-content: center;
+  vertical-align: center;
+}
 .jumboTextH1 {
   color: white;
   text-shadow: 8px 8px black;
-  text-align: center;
 }
 
 .skillContainer {
