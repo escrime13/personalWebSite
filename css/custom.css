@@ -93,6 +93,10 @@
   max-height: 40rem;
   margin: auto;
 }
+.nav-item button {
+  border: none;
+  background-color: white;
+}
 
 hr {
   display: block;
