@@ -51,14 +51,16 @@
 }
 #symboleV {
   font-size: 2rem;
+  color: red;
 }
 /* class---------------------------------- */
 
 .containerText {
-  border: double 10px white;
+  border: outset 10px white;
   padding: 40px 10px;
   margin-top: 15vh;
   margin-bottom: 40px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .outerContainer {
   display: table-cell;
