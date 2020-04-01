@@ -1,11 +1,23 @@
 $(function() {
+  $("#name")
+    .hide()
+    .slideDown(1000);
+  $("#fullStack")
+    .hide()
+    .delay(1000)
+    .slideDown(1000);
+  $("#webDev")
+    .hide()
+    .delay(1500)
+    .slideDown(1000);
   $("#symboleV")
-    .animate({ "margin-top": "+=100px" }, 1500)
-    .animate({ "margin-top": "-=100px" }, 1500)
-    .animate({ "margin-top": "+=100px" }, 1500)
-    .animate({ "margin-top": "-=100px" }, 1500)
-    .animate({ "margin-top": "+=100px" }, 1500)
-    .animate({ "margin-top": "-=100px" }, 1500);
+    .delay(3000)
+    .animate({ "margin-top": "+=100px" }, 1000)
+    .animate({ "margin-top": "-=100px" }, 1000)
+    .animate({ "margin-top": "+=100px" }, 1000)
+    .animate({ "margin-top": "-=100px" }, 1000)
+    .animate({ "margin-top": "+=100px" }, 1000)
+    .animate({ "margin-top": "-=100px" }, 1000);
 
   $("#btnAbout").on("click", function() {
     if ($("#aboutMe").css("min-height") >= "100vh") {
