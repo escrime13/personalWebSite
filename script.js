@@ -4,11 +4,11 @@ $(function() {
     .slideDown(1000);
   $("#fullStack")
     .hide()
-    .delay(1000)
+    .delay(500)
     .slideDown(1000);
   $("#webDev")
     .hide()
-    .delay(1500)
+    .delay(1000)
     .slideDown(1000);
   $("#symboleV")
     .delay(3000)
