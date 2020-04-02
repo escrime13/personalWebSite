@@ -4,6 +4,14 @@ $(function() {
     .slideUp(1000, function() {
       $("#welcome").remove();
     });
+  $("#fishLeft").animate({ "margin-left": "+=20vw" }, 1500, function() {
+    $("#fishLeft").remove();
+  });
+  $("#fishRight").animate({ "margin-left": "-=20vw" }, 1500, function() {
+    $("#fishRight").remove();
+    $("#wMessage").remove();
+  });
+
   $("#name")
     .hide()
     .delay(2500)
