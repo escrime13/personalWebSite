@@ -17,13 +17,13 @@
 }
 #fishLeft {
   position: absolute;
-  top: 25vh;
-  left: 15 vw;
+  top: 22vh;
+  left: 10vw;
 }
 #fishRight {
   position: absolute;
-  top: 35vh;
-  left: 85vw;
+  top: 38vh;
+  left: 80vw;
 }
 
 #education p {
