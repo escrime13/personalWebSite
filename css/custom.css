@@ -11,9 +11,7 @@
   text-align: center;
 }
 #wMessage {
-  position: absolute;
-  top: 30vh;
-  left: 45%;
+  text-align: center;
 }
 #fishLeft {
   position: absolute;
