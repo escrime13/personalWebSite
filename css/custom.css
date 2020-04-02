@@ -23,6 +23,11 @@
   top: 40vh;
   left: 80%;
 }
+#fishRight2 {
+  position: absolute;
+  top: 45vh;
+  left: 25%;
+}
 #fishLeft2 {
   position: absolute;
   top: 50vh;

@@ -10,6 +10,9 @@ $(function() {
   $("#fishLeft2").animate({ "margin-left": "+=25vw" }, 1500, function() {
     $("#fishLeft2").remove();
   });
+  $("#fishRight2").animate({ "margin-left": "-=15vw" }, 1500, function() {
+    $("#fishRight2").remove();
+  });
   $("#fishRight").animate({ "margin-left": "-=20vw" }, 1500, function() {
     $("#fishRight").remove();
     $("#wMessage").remove();
