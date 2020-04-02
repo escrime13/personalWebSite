@@ -11,18 +11,18 @@
   text-align: center;
 }
 #wMessage {
+  text-align: center;
   position: absolute;
   top: 30vh;
-  left: 45vw;
 }
 #fishLeft {
   position: absolute;
-  top: 22vh;
+  top: 20vh;
   left: 10vw;
 }
 #fishRight {
   position: absolute;
-  top: 38vh;
+  top: 40vh;
   left: 80vw;
 }
 
