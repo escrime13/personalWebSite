@@ -84,6 +84,13 @@
   font-size: 2rem;
   color: red;
 }
+#pictureLeaAndParker {
+  border-style: dotted;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 50%;
+  height: 30vh;
+}
 /* class---------------------------------- */
 
 .containerText {

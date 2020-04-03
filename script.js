@@ -75,13 +75,17 @@ $(function () {
   $("#btnPowerClose").on("click", function () {
     $("#powerMore").toggle();
   });
-  $("#btnFluffyModal").on("click", function () {
-    $("#fluffyModal").remove();
-  });
   $("#btnExperience").on("click", function () {
     $("#experienceMore").toggle();
   });
   $("#btnExperienceClose").on("click", function () {
     $("#experienceMore").toggle();
+  });
+  $("#btnMeetFluffy").on("click", function () {
+    $("#meetMyFluffy").toggle();
+    $("#pictureLeaAndParker").addClass("bounce-in-top");
+  });
+  $("#btnFluffyClose1").on("click", function () {
+    $("#meetMyFluffy").toggle();
   });
 });
