@@ -41,6 +41,14 @@
 	-webkit-animation: jello-horizontal 0.9s both;
 	        animation: jello-horizontal 0.9s both;
 }
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.rotate-scale-up {
+	-webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
  @-webkit-keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
@@ -190,6 +198,67 @@
   100% {
     -webkit-transform: scale3d(1, 1, 1);
             transform: scale3d(1, 1, 1);
+  }
+}
+
+
+/**
+ * ----------------------------------------
+ * animation scale-up-center
+ * ----------------------------------------
+ */
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation rotate-scale-up
+ * ----------------------------------------
+ */
+ @-webkit-keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+@keyframes rotate-scale-up {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
   }
 }
 
@@ -347,31 +416,31 @@
         <div class="row pb-5">
           <div class="col">
             <figure>
-              <img src="img/html-5.png" alt="html-5 logo" />
+              <img class="imgSkills" src="img/html-5.png" alt="html-5 logo" />
               <figcaption style="color:black">HTML 5</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/css3.png" alt="css-3 logo" />
+              <img class="imgSkills" src="img/css3.png" alt="css-3 logo" />
               <figcaption style="color:black">CSS 3</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/javascript.png" alt="javascript logo" />
+              <img class="imgSkills" src="img/javascript.png" alt="javascript logo" />
               <figcaption style="color:black">JavaScript</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/react.png" alt="react logo" />
+              <img class="imgSkills" src="img/react.png" alt="react logo" />
               <figcaption style="color:black">React</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/redux96.png" alt="redux logo" />
+              <img class="imgSkills" src="img/redux96.png" alt="redux logo" />
               <figcaption style="color:black">Redux</figcaption>
             </figure>
           </div>
@@ -379,31 +448,31 @@
         <div class="row pb-5">
           <div class="col">
             <figure>
-              <img src="img/express-nodejs.jpg" alt="express-nodejs logo" />
+              <img class="imgSkills" src="img/express-nodejs.jpg" alt="express-nodejs logo" />
               <figcaption style="color:black">Express and Node.js</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/jQuery.png" alt="jQuery logo" />
+              <img class="imgSkills" src="img/jQuery.png" alt="jQuery logo" />
               <figcaption style="color:black">jQuery</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/postman.png" alt="postman logo" />
+              <img class="imgSkills" src="img/postman.png" alt="postman logo" />
               <figcaption style="color:black">Postman</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/mongoDB.png" alt="mongoDB logo" />
+              <img class="imgSkills" src="img/mongoDB.png" alt="mongoDB logo" />
               <figcaption style="color:black">MongoDB</figcaption>
             </figure>
           </div>
           <div class="col">
             <figure>
-              <img src="img/bootsrap.jfif" alt="bootstrap 4 logo" />
+              <img class="imgSkills" src="img/bootsrap.jfif" alt="bootstrap 4 logo" />
               <figcaption style="color:black">Bootstrap 4</figcaption>
             </figure>
           </div>

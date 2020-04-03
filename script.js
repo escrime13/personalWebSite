@@ -51,6 +51,12 @@ $(function () {
   $(".educationCard").mouseleave(function () {
     $(this).stop().removeClass("jello-horizontal");
   });
+  $(".imgSkills").mouseenter(function () {
+    $(this).addClass("rotate-scale-up");
+  });
+  $(".imgSkills").mouseleave(function () {
+    $(this).stop().removeClass("rotate-scale-up");
+  });
 
   $("#btnAboutClose").on("click", function () {
     $("#aboutMore").toggle();
