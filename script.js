@@ -1,35 +1,26 @@
-$(function() {
+$(function () {
   $("#welcome")
     .delay(1500)
-    .slideUp(1000, function() {
+    .slideUp(1000, function () {
       $("#welcome").remove();
     });
-  $("#fishLeft").animate({ "margin-left": "+=20vw" }, 1500, function() {
+  $("#fishLeft").animate({ "margin-left": "+=20vw" }, 1500, function () {
     $("#fishLeft").remove();
   });
-  $("#fishLeft2").animate({ "margin-left": "+=35vw" }, 1500, function() {
+  $("#fishLeft2").animate({ "margin-left": "+=35vw" }, 1500, function () {
     $("#fishLeft2").remove();
   });
-  $("#fishRight2").animate({ "margin-left": "-=15vw" }, 1500, function() {
+  $("#fishRight2").animate({ "margin-left": "-=15vw" }, 1500, function () {
     $("#fishRight2").remove();
   });
-  $("#fishRight").animate({ "margin-left": "-=20vw" }, 1500, function() {
+  $("#fishRight").animate({ "margin-left": "-=20vw" }, 1500, function () {
     $("#fishRight").remove();
     $("#wMessage").remove();
   });
 
-  $("#name")
-    .hide()
-    .delay(2500)
-    .slideDown(1000);
-  $("#fullStack")
-    .hide()
-    .delay(3000)
-    .slideDown(1000);
-  $("#webDev")
-    .hide()
-    .delay(3500)
-    .slideDown(1000);
+  $("#name").hide().delay(2500).slideDown(1000);
+  $("#fullStack").hide().delay(3000).slideDown(1000);
+  $("#webDev").hide().delay(3500).slideDown(1000);
   $("#symboleV")
     .delay(3000)
     .animate({ "margin-top": "+=100px" }, 1000)
@@ -39,7 +30,7 @@ $(function() {
     .animate({ "margin-top": "+=100px" }, 1000)
     .animate({ "margin-top": "-=100px" }, 1000);
 
-  $("#btnAbout").on("click", function() {
+  $("#btnAbout").on("click", function () {
     if ($("#aboutMe").css("min-height") >= "100vh") {
       $("#aboutMe").css("min-height", "40vh");
       $("#aboutMore").toggle();
@@ -48,31 +39,37 @@ $(function() {
       $("#aboutMore").toggle();
     }
   });
+  $(".vibratingImage").mouseenter(function () {
+    $(".vibratingImage").addClass("vibrate-1");
+  });
+  $(".vibratingImage").mouseleave(function () {
+    $(".vibratingImage").stop().removeClass("vibrate-1");
+  });
 
-  $("#btnAboutClose").on("click", function() {
+  $("#btnAboutClose").on("click", function () {
     $("#aboutMore").toggle();
     $("#aboutMe").css("min-height", "100vh");
   });
 
-  $("#btnFluffy").on("click", function() {
+  $("#btnFluffy").on("click", function () {
     $("#fluffyMore").toggle();
   });
-  $("#btnFluffyClose").on("click", function() {
+  $("#btnFluffyClose").on("click", function () {
     $("#fluffyMore").toggle();
   });
-  $("#btnPower").on("click", function() {
+  $("#btnPower").on("click", function () {
     $("#powerMore").toggle();
   });
-  $("#btnPowerClose").on("click", function() {
+  $("#btnPowerClose").on("click", function () {
     $("#powerMore").toggle();
   });
-  $("#btnFluffyModal").on("click", function() {
+  $("#btnFluffyModal").on("click", function () {
     $("#fluffyModal").remove();
   });
-  $("#btnExperience").on("click", function() {
+  $("#btnExperience").on("click", function () {
     $("#experienceMore").toggle();
   });
-  $("#btnExperienceClose").on("click", function() {
+  $("#btnExperienceClose").on("click", function () {
     $("#experienceMore").toggle();
   });
 });
