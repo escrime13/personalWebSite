@@ -34,10 +34,13 @@
 }
 
 .vibrate-1 {
-	-webkit-animation: vibrate-1 0.3s linear infinite both;
-	        animation: vibrate-1 0.3s linear infinite both;
+	-webkit-animation: vibrate-1 0.3s linear both;
+	        animation: vibrate-1 0.3s linear both;
 }
-
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s both;
+	        animation: jello-horizontal 0.9s both;
+}
  @-webkit-keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
@@ -121,6 +124,72 @@
     -webkit-transform: translateZ(0);
             transform: translateZ(0);
     opacity: 1;
+  }
+}
+
+/**
+ * ----------------------------------------
+ * animation jello-horizontal
+ * ----------------------------------------
+ */
+ @-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
   }
 }
 
@@ -416,7 +485,7 @@
     <div id="educationBackground">
     <div id="education" class="container col-lg-6 text-center">
       <h2 id="educationTitle" class="display-4 text-center py-3 my-5" ><strong>Education</strong></h2>
-      <div class="card mx-auto col-lg-6 mb-5">
+      <div class="card educationCard mx-auto col-lg-6 mb-5">
         <div class="card-body ">
           <img class="pb-5" src="img/concordia-bc.png" alt="Decode Montreal logo"/>
           <div class="text-left ml-3"style="color:black">
@@ -437,7 +506,7 @@
           >
         </div>
       </div>
-      <div class="card mx-auto col-lg-6 mb-5">
+      <div class="card educationCard mx-auto col-lg-6 mb-5">
         <div class="card-body">
           <img class="pb-4" src="img/universite_de_montreal.png"  alt="University of Montreal logo"/>
           <div class="text-left ml-3" style="color:black">
@@ -456,7 +525,7 @@
           >
         </div>
       </div>
-      <div class="card mx-auto col-lg-6 shadow-lg mb-5">
+      <div class="card educationCard mx-auto col-lg-6 shadow-lg mb-5">
         <div class="card-body">
           <img class="pb-4" src="img/universite_de_montreal.png" alt="University of Montreal logo" />
           <div class="text-left ml-3"style="color:black">
