@@ -40,10 +40,10 @@ $(function () {
     }
   });
   $(".vibratingImage").mouseenter(function () {
-    $(".vibratingImage").addClass("vibrate-1");
+    $(this).addClass("vibrate-1");
   });
   $(".vibratingImage").mouseleave(function () {
-    $(".vibratingImage").stop().removeClass("vibrate-1");
+    $(this).stop().removeClass("vibrate-1");
   });
 
   $("#btnAboutClose").on("click", function () {
