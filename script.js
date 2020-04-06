@@ -45,12 +45,6 @@ $(function () {
   $(".vibratingImage").mouseleave(function () {
     $(this).stop().removeClass("vibrate-1");
   });
-  $(".educationCard").mouseenter(function () {
-    $(this).addClass("jello-horizontal");
-  });
-  $(".educationCard").mouseleave(function () {
-    $(this).stop().removeClass("jello-horizontal");
-  });
   $(".imgSkills").mouseenter(function () {
     $(this).addClass("rotate-scale-up");
   });
