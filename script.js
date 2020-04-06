@@ -85,7 +85,4 @@ $(function () {
     $("#meetMyFluffy").toggle();
     $("#pictureLeaAndParker").addClass("bounce-in-top");
   });
-  $("#btnFluffyClose1").on("click", function () {
-    $("#meetMyFluffy").toggle();
-  });
 });
