@@ -111,7 +111,7 @@
   background-size: cover;
 }
 .jumbotron {
-  background-image: url("https://escrime13.github.io/personalWebSite/img/black-textile-952670.jpg");
+  background-image: url("/img/japanPaysage.jpg");
   background-size: cover;
   min-height: 100vh;
 }
@@ -122,7 +122,6 @@
 }
 .jumboTextH1 {
   color: white;
-  text-shadow: 8px 8px black;
 }
 
 .skillContainer {

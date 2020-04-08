@@ -18,9 +18,9 @@ $(function () {
     $("#wMessage").remove();
   });
 
-  $("#name").hide().delay(2500).slideDown(1000);
-  $("#fullStack").hide().delay(3000).slideDown(1000);
-  $("#webDev").hide().delay(3500).slideDown(1000);
+  $("#name").hide().slideDown(1000);
+  $("#fullStack").hide().delay(500).slideDown(1000);
+  $("#webDev").hide().delay(1000).slideDown(1000);
   $("#symboleV")
     .delay(3000)
     .animate({ "margin-top": "+=100px" }, 1000)
