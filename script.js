@@ -1,23 +1,4 @@
 $(function () {
-  $("#welcome")
-    .delay(1500)
-    .slideUp(1000, function () {
-      $("#welcome").remove();
-    });
-  $("#fishLeft").animate({ "margin-left": "+=20vw" }, 1500, function () {
-    $("#fishLeft").remove();
-  });
-  $("#fishLeft2").animate({ "margin-left": "+=35vw" }, 1500, function () {
-    $("#fishLeft2").remove();
-  });
-  $("#fishRight2").animate({ "margin-left": "-=15vw" }, 1500, function () {
-    $("#fishRight2").remove();
-  });
-  $("#fishRight").animate({ "margin-left": "-=20vw" }, 1500, function () {
-    $("#fishRight").remove();
-    $("#wMessage").remove();
-  });
-
   $("#name").hide().slideDown(1000);
   $("#fullStack").hide().delay(500).slideDown(1000);
   $("#webDev").hide().delay(1000).slideDown(1000);

@@ -367,7 +367,7 @@
     <title>Anne-Sophie Masson-Côté</title>
 
   </head>
-  <body class="bodyBackground">
+  <body>
     <!-- navbar -->
     <nav class="navbar sticky-top navbar-toggler navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -401,24 +401,15 @@
 
     <!-- /navbar -->
 
-    <!--<div id="welcome">
-      <div>
-      <div id="fishLeft"> <img src="/img/fishLeft.png" alt="Clown fish crossing the window from the left"></div>
-      <div id="wMessage" class="tracking-in-expand-fwd">WELCOME!</div> 
-      <div id="fishRight"> <img src="/img/fishRight.png" alt="Clown fish crossing the window from the right"></div>
-      <div id="fishLeft2"> <img src="/img/fishLeft.png" alt="Clown fish crossing the window from the left"></div>
-      <div id="fishRight2"> <img src="/img/fishRight.png" alt="Clown fish crossing the window from the right"></div>
-    </div>
-    </div> -->
-
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid bg-dark ">
-      <div class="container kenburns-top jumboTextH1 text-center mx-auto pt-5">
+    <div class="jumbotronCSS">
+      <div class="transparentBackground">
+      <div class="container text-center mx-auto pt-5">
         <div>
         <div class="containerText"> 
-        <h1 id="name" class=" display-5"><strong>ANNE-SOPHIE</strong></h1>
-        <h2 id="fullStack" class="display-5"><strong>FULL-STACK</strong></h2>
-          <h2 id="webDev" class="display-5"><strong>WEB DEVELOPER</strong></h2>
+        <h1 id="name"><strong>ANNE-SOPHIE</strong></h1>
+        <h2 id="fullStack"><strong>FULL-STACK</strong></h2>
+          <h2 id="webDev"><strong>WEB DEVELOPER</strong></h2>
       </div>
     </div>
     <div id="symboleV">
@@ -427,13 +418,17 @@
       <div><strong>V</strong></div>
     </div>
   </div>
-    
+</div>
     </div>
+    <span class="border-bottom border-dark"></span>
     <!-- /jumbotron -->
 
-  <hr id="aboutMeTarget" class="mb-4" />
+  <div id="aboutMeTarget" ></div>
+
+
     <!-- About Me -->
     <div id="aboutMeBackground">
+      <div class="transparentBackground">
     <div
       id="aboutMe"
       class="container text-center align-middle"
@@ -446,19 +441,8 @@
           <li>We shouldn't be constrained by our past.</li>
           <li>We should never stop learning.</li>
         </ul>
-    
         </strong>
       </p>
-      <div class="text-right mb-5">
-
-        <button type="button" class="btn btn-dark mb-5" id="btnAbout">Tell Me More</button>
-      </div>
-    </div>
-
-
-      <!-- travel -->
-
-      <div id="aboutMore" style="display:none">
         <p class=" text-left m-2 p-2 m-mb-5 p-mb-5 "><strong>I used to be envious of people who go on amazing adventures.
           Then I realized there was nothing stopping me from doing whatever I wanted.
           I started doing the things I had always dreamed of: a pilgrimage in Japan, a Safari in South Africa, a trek in the Hymalayas... becoming a Web Developer!</p>
@@ -490,27 +474,21 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-    </div>
-  
-    <div class="text-right m-5 ">
-
-      <button type="button" class="btn btn-dark mb-5" id="btnAboutClose">Close</button>
-    </div>
 
   </div>
+</div>
 
-      <!-- /travel -->
-    </div>
 
 
     <!-- /About Me -->
 
-    <hr id="skillsTarget" class="mb-4" />
+    <div id="skillsTarget"></div>
     <!-- Skills -->
     <div id="skillsBackground">
+      <div class="transparentBackgroundBlack">
     <div
       id="skills"
-      class="container text-center pb-5 text-white"
+      class="container text-center pb-5 text-white "
     >
       <h2 class="display-4 mx-auto py-5" style="text-decoration:underline"><strong>SKILLS</strong></h2>
       <div class="container  skillContainer pt-5" style="background-color: white;">
@@ -583,8 +561,9 @@
 
   </div>
 </div>
+</div>
     <!-- /Skills -->
-    <hr id="portfolioTarget" class="mb-4" />
+    <span id="portfolioTarget"></span>
     <!-- projects -->
     <div id="projectDemoBackground">
     <div
@@ -665,9 +644,10 @@
   </div>
 </div>
     <!-- /projects -->
-    <hr id="educationTarget" class="mb-4" />
+    <span id="educationTarget"></span>
     <!-- education -->
     <div id="educationBackground">
+      <div class="transparentBackground">
     <div id="education" class="container col-lg-6 text-center">
       <h2 id="educationTitle" class="display-4 text-center py-3 my-5" ><strong>Education</strong></h2>
       <div class="card educationCard mx-auto col-lg-6 mb-5">
@@ -732,10 +712,12 @@
       </div>
     </div>
   </div>
+  </div>
     <!-- /education -->
-    <hr id="experienceTarget" class="mb-4" />
+    <span id="experienceTarget"></span>
         <!-- experience -->
         <div id="experienceBackground">
+          <div class="transparentBackground">
         <div
         id="experience"
         class="container text-center"
@@ -760,6 +742,7 @@
       </div>
       </div>
     </div>
+  </div>
         <!-- /experience -->
     <!-- footer -->
 
